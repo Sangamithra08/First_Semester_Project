@@ -1,0 +1,39 @@
+
+.head{
+    font-size: 27px;
+    text-decoration:wavy;
+    word-spacing: 70px;
+   position: fixed;
+    text-indent: 200px;
+    height: 75px;
+    width: 100%;
+    background-color:rgb(49, 142, 89);
+    padding-top: 2%;
+}
+.background{
+    background: url("back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    text-align: center;
+    padding: 20%;
+    color: white;
+}
+.searchbox{
+    height:25px;
+    font-size: 15px;
+}
+.para{
+    padding: 45px;
+}
+.footer{
+    background-color: rgb(10, 166, 125);
+    color: white;
+}
+ion-icon {
+    font-size: 34px;
+  }
+  material-icons{
+    font-size:47px ;
+  }

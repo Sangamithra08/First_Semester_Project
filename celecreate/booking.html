@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>BOOKING DETAILS</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+  </head>
+    <body class="body">
+      <style>
+      .body{
+        background-image: url(backgroundnew.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        color: white;
+    }
+    .btn{
+        height: 35px;
+        background-color: red;
+        color: white;
+        font-size: 17px;
+        
+    }</style>
+      <fieldset>
+  <legend style="font-style: italic;">the perfect, to your events....</legend>
+<div class="row">
+    <div class="col-75">
+      <div class="container">
+        <center>
+        <form action="Booking Successful.php">
+          <div class="row">
+            <div class="col-50">
+              <h3 style="font-size: 35px" align="center">BOOKING NOW</h3><hr>
+              <h2 style="font-style: italic;"align="center"> Client & Event Details</h2><hr>          
+              <label i="fname"><i class="name"></i> Full Name:</label>
+              <input type="text" id="fname" name="firstname" placeholder="Enter your Name">
+              <br><br>
+              <label i="email"><i class="email"></i> Email:</label>
+              <input type="text" id="email" name="email" placeholder="name@example.com">
+              <br><br>
+               <label i="ph no"><i class="ph no"></i>Phone Number</label>
+              <input type="text" id="ph no" name="ph no" placeholder="xxxxxx67x0">
+              <br><br>
+              <label i="expected guest count."><i class="expected guest count"> </i> Expected guest count:</label>
+              <input type="text" id="expected guest count" name="expected no. of guest">
+              <br><br>
+              <label i="Food/cuisine choice"><i class="Food/cuisine choice"></i>Type of food:</label>
+              <select>
+                <option>Cuisines offered:</option>
+                <option value="North indian">Indian</option>
+                <option value="South Indian">american-chinese</option>
+                <option value="Jain">jain</option>
+                <option value="pure vegetarian">Pure vegetarian</option>
+                <option value="Italian">Italian</option>
+                <option value="Indo-chineese">Indo-chineese</option>
+              </select>
+              
+              <br><br>
+              <label i="Event date"><i class="event date"></i>Date of event:</label>
+              <input type="date" id="event date" name="event date" placeholder="DD/MM/YY"><div class="col-50">
+                <br><br>
+                <label i="event"><i class="venue of the event" placeholder="venue of the event">Event venue:</i></label>
+                  <input type="text"  id="event venue" name="event venue" placeholder="venue of the event">
+                <br><br>
+                <label i="estimated budget"><i class="estimated budget"></i>Estimated budget:</label>
+                <input type="text" id="estimated budget" name="expected budget">
+                <br><br>
+                <label>Other requirements :
+                <textarea name="Other requirements" rows="3" cols="24"></textarea></label>
+                </div><hr>
+              
+    
+                <h3 style align="center";>Payment & Callback</h3><hr>
+    <label for="fname"><b>Accepting Cards: </b></label>
+    <br>
+    <div class="icon-container">
+      <i class="visa" style="color:navy;"></i>
+      <i class="amex" style="color:blue;"></i>
+      <i class="mastercard" style="color:red;"></i>
+      <i class="discover" style="color:orange;"></i>
+    </div>
+    <label for="cname">Name on Card</label>
+    <input type="text" id="cname" name="cardname" placeholder="Enter the Name">
+    <br><br>
+    <label for="ccnum">Credit card number</label>
+    <input type="text" id="ccnum" name="cardnumber" placeholder="1234-XXXX-XXXX-XXXX">
+    <br><br>
+    <label for="expmonth">Exp Month</label>
+    <input type="text" id="expmonth" name="expmonth" placeholder="Enter the Month">
+    <br><br>
+    <div class="row">
+      <div class="col-50">
+        <label for="expyear">Exp Year</label>
+        <input type="text" id="expyear" name="expyear" placeholder="Enter the Year">
+        <br><br>
+      </div>
+      <br>
+      <div class="col-50">
+        <label for="cvv">CVV</label>
+        <input type="text" id="cvv" name="cvv" placeholder="*">
+      </div>
+    </div>
+  </div>
+
+</div>
+<label>
+  <input type="checkbox" checked="checked" name="sameadr"> Shipping address same as billing
+</label>
+<br><br>
+
+<label for="fname"><b></b></label>
+</center>
+<center><input type="submit" value="register" style="font-size:20px;
+  font-style: italic;border: 2px;border-radius:7px;
+  background-color: red;color: cornsilk;height: 35px;"onclick="call();"></center>
+   <script>
+      function call()
+      {
+      
+      if(confirm("We'll Call you soon")==true)
+      {
+       window.open("thank.html")
+      }
+      else{
+          window.open("booking.html");
+      }
+  }
+      </script> 
+   </div>
+   <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+   <div class="elfsight-app-03cfe828-1d4b-4472-8617-a633d776e646"></div>
+   <br>
+   <center><a href="home.html" style="color: white;font-style: italic; font-size: 20px;">Back to home</a></center>
+</fieldset>
+</form>
+</div>
+</div>
+    </body>
+</html>

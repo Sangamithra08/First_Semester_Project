@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body style="background-image: url(1.jpg); background-repeat: no-repeat;background-size: cover;">
+    
+    
+<style>
+ *{
+    margin:0;
+    padding: 20px;;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+   padding-left: 30%;
+}
+form{
+    width: 450px;
+    height: 600px;
+    display:flex;
+    flex-direction: column;
+    background:rgb(234, 231, 231);
+    border-radius: 10px;
+    font-size: 20px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: gold;
+    margin-bottom:5%;
+    opacity: .7;
+    padding: 20px;
+}
+label{
+    color:black;
+    margin-left: 10%;
+    opacity: .8;
+    font-size:x-large;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    
+}
+input{
+    width:80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border:black;
+    outline:black;
+    background:transparent;
+    color:black;
+    font-size:x-large;
+   
+}
+button{
+    width:50%;
+    margin: 3% auto;
+    color:black;
+    font-size: 15px;
+    opacity: .7;
+    background: rgba(255,255,255,0.06);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    font-size: larger;
+    border-radius: 20px;
+}
+a{
+    font-size: 12px;
+    text-align: center;
+    color:black;
+    font-size: medium;
+    opacity: .7;
+}
+</style>
+<div>
+<h1>Sign up</h1>
+<script src="login.js"></script>
+<form name="myform" method="post" action="home.html" onsubmit="return validateform()"  style="font-size: 19px;">
+Username
+<input type="text" name="name" placeholder="create Username" >
+Password
+<input type="password" name="password" placeholder="create Password" >  
+phone number
+<input type="text" name="number" placeholder="enter the number" >
+Email id
+<input type="email" name="email" placeholder="enter the email" >  
+  <input type="submit" placeholder="login" value="login" style="background-color: rgb(39, 163, 147); color: white; " ></a>
+<a href="signin.html" >Already a user?</a>
+</form>
+</body>
+</html>

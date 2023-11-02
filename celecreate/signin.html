@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login page</title>
+    <link rel="stylesheet" href="login.css"> </link>
+</head>
+<body>
+<style>
+ *{
+    padding: 20px;
+    padding-left: 58px;
+     box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+    cursor: pointer;
+}
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    background-image: url(loginbg.jpeg);
+    background-size: cover;
+    align-items: center;
+    background-repeat: no-repeat;
+ background-position: 50%;
+ opacity: 75%;
+ margin: 0;
+}
+form{
+    align-self: center;
+
+    width: 450px;
+    height: 650px;
+    display:flex;
+    flex-direction: column;
+   background:whitesmoke;
+    border-radius: 30px;
+    font-size: medium;
+    margin-left:350px;
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: grey;
+    margin-bottom :5%;
+    opacity: 0.7;
+    padding:20px;
+}
+label{
+    color:black;
+    margin-left: 10%;
+    opacity: .8;
+    font-size:x-large;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    
+}
+input{
+    width:80%;
+    margin: 5% auto;
+    margin-bottom: 8%;
+    border:black;
+    outline:black;
+    background:transparent;
+    color:black;
+    font-size:x-large;
+}
+button{
+    width:40%;
+    height: 40%;
+    margin: 3% auto;
+    color:black;
+    font-size: 15px;
+    opacity: .7;
+    background: rgba(255,255,255,0.06);
+    padding:  2px;
+    border: none;
+    outline: none;
+    font-size: larger;
+    border-radius: 20px;
+    background-color: rgb(251, 52, 85);
+}
+a{
+    font-size: 12px;
+    text-align: center;
+    color:black;
+    font-size: medium;
+}
+</style>
+<div>
+<form>
+<h1>Sign In</h1>
+<label>Username</label>
+<input type="text"name="user" placeholder="Enter Username">
+<label>Password</label>
+<input type="password"name="password" placeholder="Enter Password">
+<button><a style="text-decoration: none;" href="home.html">  Sign In</a></button>
+<input type="button" onclick="call()" value="Forgot password" style="color: grey;"><p style="color: red;"></p>
+<script>
+function call(){
+if(confirm("We've sent you an mail")==true){
+window.open("home.html")
+}
+else{
+window.open("signin.html");
+}
+}
+</script> 
+</form>
+</div>
+</body>
+</html>

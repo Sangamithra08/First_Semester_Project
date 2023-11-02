@@ -1,0 +1,43 @@
+
+.head{
+    font-size: 27px;
+    text-decoration:wavy;
+    word-spacing: 70px;
+   position: fixed;
+    text-indent: 200px;
+    height: 65px;
+    width: 100%;
+    background-color:rgb(49, 142, 89);
+    padding-top: 2%;
+}
+
+.searchbox{
+    height:35px;
+    font-size: 15px;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+div img{
+   height:300px ;
+   width: 350px;
+   border-radius: 13px;
+   box-shadow: 4px 7px 7px 0px black;
+   cursor: pointer;
+   margin: 10px;
+   transition: 400ms;
+}
+.container{
+    display: grid;
+    
+}
+ion-icon {
+    font-size: 34px;
+  }
+  material-icons{
+    font-size:47px ;
+  }
